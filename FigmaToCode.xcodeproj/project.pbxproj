@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32D858C2A4430D300B55859 /* FigmaToCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D858B2A4430D300B55859 /* FigmaToCodeApp.swift */; };
+		C32D858E2A4430D300B55859 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D858D2A4430D300B55859 /* Persistence.swift */; };
+		C32D85912A4430D300B55859 /* FigmaToCode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C32D858F2A4430D300B55859 /* FigmaToCode.xcdatamodeld */; };
+		C32D85952A4430D400B55859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32D85942A4430D400B55859 /* Assets.xcassets */; };
+		C32D85992A4430D400B55859 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32D85982A4430D400B55859 /* Preview Assets.xcassets */; };
+		C32D85A32A4430D400B55859 /* FigmaToCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D85A22A4430D400B55859 /* FigmaToCodeTests.swift */; };
+		C32D85AD2A4430D400B55859 /* FigmaToCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D85AC2A4430D400B55859 /* FigmaToCodeUITests.swift */; };
+		C32D85AF2A4430D400B55859 /* FigmaToCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D85AE2A4430D400B55859 /* FigmaToCodeUITestsLaunchTests.swift */; };
+		C3D188F42A44335300FEA4B5 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D188F32A44335300FEA4B5 /* SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32D859F2A4430D400B55859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32D85802A4430D300B55859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32D85872A4430D300B55859;
+			remoteInfo = FigmaToCode;
+		};
+		C32D85A92A4430D400B55859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32D85802A4430D300B55859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32D85872A4430D300B55859;
+			remoteInfo = FigmaToCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C32D85882A4430D300B55859 /* FigmaToCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigmaToCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32D858B2A4430D300B55859 /* FigmaToCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaToCodeApp.swift; sourceTree = "<group>"; };
+		C32D858D2A4430D300B55859 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C32D85902A4430D300B55859 /* FigmaToCode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FigmaToCode.xcdatamodel; sourceTree = "<group>"; };
+		C32D85942A4430D400B55859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32D85962A4430D400B55859 /* FigmaToCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FigmaToCode.entitlements; sourceTree = "<group>"; };
+		C32D85982A4430D400B55859 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C32D859E2A4430D400B55859 /* FigmaToCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigmaToCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32D85A22A4430D400B55859 /* FigmaToCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaToCodeTests.swift; sourceTree = "<group>"; };
+		C32D85A82A4430D400B55859 /* FigmaToCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigmaToCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32D85AC2A4430D400B55859 /* FigmaToCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaToCodeUITests.swift; sourceTree = "<group>"; };
+		C32D85AE2A4430D400B55859 /* FigmaToCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaToCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3D188F32A44335300FEA4B5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32D85852A4430D300B55859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32D859B2A4430D400B55859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32D85A52A4430D400B55859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C32D857F2A4430D300B55859 = {
+			isa = PBXGroup;
+			children = (
+				C32D858A2A4430D300B55859 /* FigmaToCode */,
+				C32D85A12A4430D400B55859 /* FigmaToCodeTests */,
+				C32D85AB2A4430D400B55859 /* FigmaToCodeUITests */,
+				C32D85892A4430D300B55859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C32D85892A4430D300B55859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32D85882A4430D300B55859 /* FigmaToCode.app */,
+				C32D859E2A4430D400B55859 /* FigmaToCodeTests.xctest */,
+				C32D85A82A4430D400B55859 /* FigmaToCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32D858A2A4430D300B55859 /* FigmaToCode */ = {
+			isa = PBXGroup;
+			children = (
+				C32D858B2A4430D300B55859 /* FigmaToCodeApp.swift */,
+				C32D858D2A4430D300B55859 /* Persistence.swift */,
+				C3D188F32A44335300FEA4B5 /* SwiftUIView.swift */,
+				C32D85942A4430D400B55859 /* Assets.xcassets */,
+				C32D85962A4430D400B55859 /* FigmaToCode.entitlements */,
+				C32D858F2A4430D300B55859 /* FigmaToCode.xcdatamodeld */,
+				C32D85972A4430D400B55859 /* Preview Content */,
+			);
+			path = FigmaToCode;
+			sourceTree = "<group>";
+		};
+		C32D85972A4430D400B55859 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C32D85982A4430D400B55859 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C32D85A12A4430D400B55859 /* FigmaToCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C32D85A22A4430D400B55859 /* FigmaToCodeTests.swift */,
+			);
+			path = FigmaToCodeTests;
+			sourceTree = "<group>";
+		};
+		C32D85AB2A4430D400B55859 /* FigmaToCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C32D85AC2A4430D400B55859 /* FigmaToCodeUITests.swift */,
+				C32D85AE2A4430D400B55859 /* FigmaToCodeUITestsLaunchTests.swift */,
+			);
+			path = FigmaToCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32D85872A4430D300B55859 /* FigmaToCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32D85B22A4430D400B55859 /* Build configuration list for PBXNativeTarget "FigmaToCode" */;
+			buildPhases = (
+				C32D85842A4430D300B55859 /* Sources */,
+				C32D85852A4430D300B55859 /* Frameworks */,
+				C32D85862A4430D300B55859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FigmaToCode;
+			productName = FigmaToCode;
+			productReference = C32D85882A4430D300B55859 /* FigmaToCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32D859D2A4430D400B55859 /* FigmaToCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32D85B52A4430D400B55859 /* Build configuration list for PBXNativeTarget "FigmaToCodeTests" */;
+			buildPhases = (
+				C32D859A2A4430D400B55859 /* Sources */,
+				C32D859B2A4430D400B55859 /* Frameworks */,
+				C32D859C2A4430D400B55859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32D85A02A4430D400B55859 /* PBXTargetDependency */,
+			);
+			name = FigmaToCodeTests;
+			productName = FigmaToCodeTests;
+			productReference = C32D859E2A4430D400B55859 /* FigmaToCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C32D85A72A4430D400B55859 /* FigmaToCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32D85B82A4430D400B55859 /* Build configuration list for PBXNativeTarget "FigmaToCodeUITests" */;
+			buildPhases = (
+				C32D85A42A4430D400B55859 /* Sources */,
+				C32D85A52A4430D400B55859 /* Frameworks */,
+				C32D85A62A4430D400B55859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32D85AA2A4430D400B55859 /* PBXTargetDependency */,
+			);
+			name = FigmaToCodeUITests;
+			productName = FigmaToCodeUITests;
+			productReference = C32D85A82A4430D400B55859 /* FigmaToCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32D85802A4430D300B55859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C32D85872A4430D300B55859 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C32D859D2A4430D400B55859 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C32D85872A4430D300B55859;
+					};
+					C32D85A72A4430D400B55859 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C32D85872A4430D300B55859;
+					};
+				};
+			};
+			buildConfigurationList = C32D85832A4430D300B55859 /* Build configuration list for PBXProject "FigmaToCode" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32D857F2A4430D300B55859;
+			productRefGroup = C32D85892A4430D300B55859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32D85872A4430D300B55859 /* FigmaToCode */,
+				C32D859D2A4430D400B55859 /* FigmaToCodeTests */,
+				C32D85A72A4430D400B55859 /* FigmaToCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32D85862A4430D300B55859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32D85992A4430D400B55859 /* Preview Assets.xcassets in Resources */,
+				C32D85952A4430D400B55859 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32D859C2A4430D400B55859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32D85A62A4430D400B55859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32D85842A4430D300B55859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32D85912A4430D300B55859 /* FigmaToCode.xcdatamodeld in Sources */,
+				C32D858C2A4430D300B55859 /* FigmaToCodeApp.swift in Sources */,
+				C3D188F42A44335300FEA4B5 /* SwiftUIView.swift in Sources */,
+				C32D858E2A4430D300B55859 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32D859A2A4430D400B55859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32D85A32A4430D400B55859 /* FigmaToCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32D85A42A4430D400B55859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32D85AD2A4430D400B55859 /* FigmaToCodeUITests.swift in Sources */,
+				C32D85AF2A4430D400B55859 /* FigmaToCodeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32D85A02A4430D400B55859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32D85872A4430D300B55859 /* FigmaToCode */;
+			targetProxy = C32D859F2A4430D400B55859 /* PBXContainerItemProxy */;
+		};
+		C32D85AA2A4430D400B55859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32D85872A4430D300B55859 /* FigmaToCode */;
+			targetProxy = C32D85A92A4430D400B55859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C32D85B02A4430D400B55859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C32D85B12A4430D400B55859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C32D85B32A4430D400B55859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FigmaToCode/FigmaToCode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FigmaToCode/Preview Content\"";
+				DEVELOPMENT_TEAM = R8354GBK74;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = visilean.FigmaToCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32D85B42A4430D400B55859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FigmaToCode/FigmaToCode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FigmaToCode/Preview Content\"";
+				DEVELOPMENT_TEAM = R8354GBK74;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = visilean.FigmaToCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C32D85B62A4430D400B55859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8354GBK74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = visilean.FigmaToCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FigmaToCode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FigmaToCode";
+			};
+			name = Debug;
+		};
+		C32D85B72A4430D400B55859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8354GBK74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = visilean.FigmaToCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FigmaToCode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FigmaToCode";
+			};
+			name = Release;
+		};
+		C32D85B92A4430D400B55859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8354GBK74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = visilean.FigmaToCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FigmaToCode;
+			};
+			name = Debug;
+		};
+		C32D85BA2A4430D400B55859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8354GBK74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = visilean.FigmaToCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FigmaToCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32D85832A4430D300B55859 /* Build configuration list for PBXProject "FigmaToCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32D85B02A4430D400B55859 /* Debug */,
+				C32D85B12A4430D400B55859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32D85B22A4430D400B55859 /* Build configuration list for PBXNativeTarget "FigmaToCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32D85B32A4430D400B55859 /* Debug */,
+				C32D85B42A4430D400B55859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32D85B52A4430D400B55859 /* Build configuration list for PBXNativeTarget "FigmaToCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32D85B62A4430D400B55859 /* Debug */,
+				C32D85B72A4430D400B55859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32D85B82A4430D400B55859 /* Build configuration list for PBXNativeTarget "FigmaToCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32D85B92A4430D400B55859 /* Debug */,
+				C32D85BA2A4430D400B55859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C32D858F2A4430D300B55859 /* FigmaToCode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C32D85902A4430D300B55859 /* FigmaToCode.xcdatamodel */,
+			);
+			currentVersion = C32D85902A4430D300B55859 /* FigmaToCode.xcdatamodel */;
+			path = FigmaToCode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C32D85802A4430D300B55859 /* Project object */;
+}
